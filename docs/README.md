@@ -12,5 +12,9 @@ account.
 
 ## Scraping Craft.co
 
+Taking data from craft.co website
+
 ## Scraping Heatmap
+
+Taking data from curated Excel file of startups.
 
