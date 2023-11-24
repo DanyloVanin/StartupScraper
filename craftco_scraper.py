@@ -10,7 +10,7 @@ from datetime import datetime
 
 
 # URL of the webpage containing the companies information
-url = 'https://craft.co/search?layout=list&order=size_desc&q='
+url = 'https://craft.co/search?layout=list&order=size_desc&q=&bsizes%5B0%5D=0&bsizes%5B1%5D=100'
 base_url = "https://craft.co"
 
 # Set up the Selenium WebDriver with a headless Chrome browser
@@ -28,7 +28,7 @@ driver.implicitly_wait(10)
 
 
 # Define the maximum number of times to click the button
-max_clicks = 15
+max_clicks = 50
 
 
 def is_accept_button_present():
@@ -67,7 +67,7 @@ def load_more():
         # Click the button
         button.click()
         # Wait for the page to load (you might want to replace this with a more robust wait)
-        time.sleep(5)
+        time.sleep(2)
     except Exception as e:
         print(f"Error clicking button: {e}")
 
@@ -200,6 +200,5 @@ with open(json_file_name, 'w', encoding='utf-8') as json_file:
 
 print(f"Total companies found: {total_count}")
 
-time.sleep(500)
 # Close the WebDriver
 driver.quit()
