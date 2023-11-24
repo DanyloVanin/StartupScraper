@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Result</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+
+    <h1 class="mb-4">Query Result</h1>
+
+    <div class="mb-4">
+        <strong>Query Type:</strong> {{ query_type }}
+    </div>
+
+    <div class="mb-4">
+        <strong>Query:</strong> {{ query }}
+    </div>
+
+    <div class="mb-4">
+        <strong>Result:</strong>
+
+        {% if result is string %}
+            <p>{{ result }}</p>
+        {% else %}
+            <ul class="list-group">
+                {% for record in result %}
+                    <li class="list-group-item">{{ record }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+
+    <a href="/" class="btn btn-primary">Back to Home</a>
+
+    <!-- Add Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

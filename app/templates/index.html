@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo4j Query Interface</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+
+    <h1 class="mb-4">Neo4j Query Interface</h1>
+
+    <form action="/query" method="post" class="mb-4">
+        <div class="form-group">
+            <label for="query_type">Select Query Type:</label>
+            <select id="query_type" name="query_type" class="form-control">
+                <option value="custom">Custom Query</option>
+                <option value="all_startups_and_sectors">Get all startups and sectors</option>
+                <option value="persons_at_startup">Find persons at startup</option>
+                <option value="startups_in_sector">Find startups in sector</option>
+                <option value="total_startups">Get total startups</option>
+                <option value="most_common_sector">Get most common sector</option>
+                <option value="total_persons">Get total persons</option>
+                <option value="startups_last_five_years">Get startups founded in the last five years</option>
+                <option value="founders_and_startups">Get founders and startups</option>
+            </select>
+        </div>
+
+        <div id="custom_query_input" class="form-group">
+            <label for="user_query">Enter your Neo4j query:</label>
+            <textarea id="user_query" name="user_query" rows="4" cols="50" class="form-control"></textarea>
+        </div>
+
+        <div id="startup_name_input" style="display: none;" class="form-group">
+            <label for="startup_name">Enter startup name:</label>
+            <input type="text" id="startup_name" name="startup_name" class="form-control">
+        </div>
+
+        <div id="sector_name_input" style="display: none;" class="form-group">
+            <label for="sector_name">Enter sector name:</label>
+            <input type="text" id="sector_name" name="sector_name" class="form-control">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Run Query</button>
+    </form>
+
+    <script>
+        document.getElementById('query_type').addEventListener('change', function () {
+            var customQueryInput = document.getElementById('custom_query_input');
+            var startupNameInput = document.getElementById('startup_name_input');
+            var sectorNameInput = document.getElementById('sector_name_input');
+
+            if (this.value === 'custom') {
+                customQueryInput.style.display = 'block';
+                startupNameInput.style.display = 'none';
+                sectorNameInput.style.display = 'none';
+            } else if (this.value === 'persons_at_startup') {
+                customQueryInput.style.display = 'none';
+                startupNameInput.style.display = 'block';
+                sectorNameInput.style.display = 'none';
+            } else if (this.value === 'startups_in_sector') {
+                customQueryInput.style.display = 'none';
+                startupNameInput.style.display = 'none';
+                sectorNameInput.style.display = 'block';
+            } else {
+                customQueryInput.style.display = 'none';
+                startupNameInput.style.display = 'none';
+                sectorNameInput.style.display = 'none';
+            }
+        });
+
+        // Check default value on page load
+        document.addEventListener('DOMContentLoaded', function () {
+            var customQueryInput = document.getElementById('custom_query_input');
+            var queryTypeSelect = document.getElementById('query_type');
+
+            if (queryTypeSelect.value === 'custom') {
+                customQueryInput.style.display = 'block';
+            }
+        });
+    </script>
+
+    <!-- Add Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
