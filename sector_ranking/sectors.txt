@@ -1,0 +1,443 @@
+cryptocurrency, 5
+financial data, 4
+energy infrastructure, 4
+social networks, 3
+gift cards, 2
+gifts, 2
+optics, 3
+sensors, 4
+cloud platforms(paas), 4
+legal support, 3
+tax, 3
+developer tools, 4
+eyewear, 3
+infrastructure, 3
+marketing agency, 3
+lighting, 2
+market research, 3
+translation, 3
+interior design, 2
+reinsurance, 3
+marine, 2
+safety, 3
+holding company, 2
+drones, 4
+robotics, 4
+mobile provider, 3
+sport, 4
+genetics, 4
+medical diagnostics, 4
+food additives, 3
+career advice, 3
+video technology, 4
+bicycle, 3
+recycling, 3
+drug monitoring, 4
+knowledge management, 4
+workforce management, 3
+commercial real estate, 3
+lead generation, 3
+books, 2
+surgical solutions, 4
+women's health, 4
+healthcare staffing, 3
+beer, 2
+polymers, 3
+investment banks, 4
+student loans, 3
+3d modeling, 3
+search engine, 4
+legal, 3
+appliances, 2
+crowdfunding, 4
+architecture, 3
+alternative lending, 4
+property finance, 3
+restaurant, 2
+displays, 3
+construction tech, 4
+geolocation, 4
+mapping, 3
+cable provider, 2
+facial recognition, 4
+computer vision, 4
+direct marketing, 2
+wind, 3
+shipbuilding, 2
+movies, 3
+mortgages, 3
+consumer software, 4
+data storage, 4
+self-driving, 5
+residential real estate, 3
+applicant tracking, 4
+cloud infrastructure(iaas), 4
+augmented reality, 4
+rehabilitation, 3
+toys, 3
+fabrication tools, 3
+lasers, 3
+home services, 3
+jewelry, 3
+nanotech, 5
+airlines, 2
+supply chain management, 4
+vendor management, 4
+content curriculum, 3
+learning management, 4
+search, 4
+home & garden, 3
+travel agency, 3
+home loans, 3
+audio, 4
+oncology, 5
+pest control, 3
+funeral, 2
+rail, 3
+senior care, 4
+publishing, 3
+machinery, 3
+health care, 4
+information technology, 5
+internet services, 5
+administrative services, 3
+financial services, 4
+other, 2
+professional services, 3
+information technology & services, 5
+insurance, 4
+software, 5
+environmental services, 3
+sustainability, 4
+renewables & environment, 4
+real estate, 4
+data and analytics, 5
+computer & network security, 4
+lending and investments, 4
+commerce and shopping, 4
+medical device, 4
+philanthropy, 3
+business supplies & equipment, 3
+biotechnology, 5
+computer software, 5
+education, 4
+sales and marketing, 4
+sports, 3
+packaging & containers, 3
+consumer electronics, 4
+hardware, 4
+science and engineering, 4
+privacy and security, 4
+apps, 4
+artificial intelligence, 5
+transportation, 4
+health, 4
+wellness & fitness, 4
+mobile, 4
+food and beverage, 4
+logistics & supply chain, 4
+manufacturing, 4
+chemicals, 3
+energy, 4
+research, 3
+agriculture and farming, 3
+navigation and mapping, 4
+clothing and apparel, 3
+design, 3
+food & beverages, 4
+travel and tourism, 4
+apparel & fashion, 3
+media and entertainment, 4
+consumer goods, 4
+e-learning, 4
+hospital & health care, 4
+pharmaceuticals, 4
+retail, 4
+advertising, 4
+payments, 4
+messaging and telecommunications, 4
+electrical & electronic manufacturing, 4
+leisure, 3
+travel & tourism, 4
+textiles, 3
+internet, 5
+music and audio, 4
+music, 4
+human resources, 3
+venture capital & private equity, 4
+marketing & advertising, 4
+printing, 3
+technology, 5
+ecommerce, 4
+fintech, 5
+fraud detection, 4
+platform, 4
+financial management, 4
+machine learning, 5
+travel & leisure, 4
+booking, 4
+traveltech, 4
+automotive & transportation, 4
+auto dealers, 4
+auto parts, 4
+car services, 4
+vehicles, 4
+media & entertainment, 4
+mobile app, 4
+television, 4
+video, 4
+video content, 4
+cosmetics, 3
+distribution, 3
+health & beauty, 4
+manufacturing & industrial, 4
+electronic components, 4
+electronics, 4
+routers & switches, 4
+app development, 4
+business intelligence, 4
+cloud, 5
+enterprise software, 5
+it services, 4
+automation, 5
+home improvement, 3
+facilities management, 2
+performance management, 3
+healthtech, 5
+brokerage, 4
+car insurance, 3
+home insurance, 3
+life insurance, 4
+auto loans, 2
+documents, 2
+marketplace, 4
+used cars, 3
+business products & services, 4
+digital marketing agency, 4
+graphic design, 3
+batteries, 3
+engines, 2
+blockchain, 5
+money transfer, 4
+mobile & telecommunications, 4
+broadband, 4
+fiber optic, 4
+internet provider, 4
+consumer products & services, 3
+paper and packaging, 2
+it consulting, 4
+procurement, 3
+food & beverage, 3
+brand creation, 4
+processed food, 3
+heavy equipment, 2
+delivery, 3
+healthcare, 5
+fitness & wellness, 4
+it staffing, 4
+project management, 4
+recruiting, 4
+security, 4
+management consulting, 4
+supply chain, 3
+building materials, 2
+human resources & recruiting, 4
+recruiting marketplace, 4
+accessories, 3
+clothing, 3
+fashion, 4
+flooring, 2
+wood product, 2
+aerospace, 3
+aviation, 3
+defense, 3
+monitoring, 4
+satellite, 4
+logistics, 4
+postal, 3
+energy services, 4
+engineering, 3
+identity management, 4
+advanced materials, 3
+manufacturing equipment, 3
+metal products, 2
+construction management, 3
+cybersecurity, 4
+3d printing, 3
+welding, 2
+application software, 4
+cloud services(saas), 5
+erp, 4
+freight, 3
+road transportation, 3
+energy & utilities, 4
+cleantech, 5
+renewables, 5
+solar, 5
+pharma, 4
+biotech, 4
+drug development, 4
+imaging, 3
+photography, 3
+rental, 3
+systems integrator, 3
+data management, 4
+virtualization, 4
+groceries, 3
+nutrition, 4
+furniture, 3
+semiconductors, 4
+auto repairs, 3
+packaging, 2
+crm, 4
+outsourcing, 4
+content provider, 3
+event management, 3
+display advertising, 3
+seo, 4
+coatings, 3
+lubricants, 2
+mental health, 4
+messaging, 4
+clinical research, 5
+simulation, 3
+oil & gas, 2
+website design, 3
+open source, 4
+cloud storage, 5
+mechanical components, 3
+connectivity, 4
+navigation, 3
+marketing, 4
+web hosting, 3
+contractor, 3
+plastic, 2
+database, 4
+content management, 4
+data visualization, 4
+beverages, 3
+water, 3
+therapy, 4
+human capital, 5
+media, 4
+compliance, 3
+master data management, 4
+oil, 2
+internet of things, 5
+medical devices, 5
+medtech, 5
+real estate & construction, 4
+construction & design, 4
+energy storage, 4
+telecommunications, 4
+protective equipment, 4
+pharmacy, 5
+veterinary, 3
+building management, 4
+adtech, 4
+natural gas, 2
+petroleum, 2
+waste management, 3
+home building, 4
+property management, 4
+real estate agency, 4
+cables, 3
+content advertising, 4
+marketing analytics, 4
+leasing, 3
+equipment hire, 3
+communication equipment, 4
+conglomerates, 3
+maritime, 3
+agriculture, 4
+farming, 4
+fishery, 3
+investment management, 5
+private equity, 5
+storage tanks, 3
+clinics, 5
+data collection, 4
+hrtech, 5
+life sciences, 5
+agricultural products, 4
+hvac, 3
+edtech, 5
+art, 4
+exploration & development, 2
+mining, 2
+shipping, 3
+radio, 3
+signal processing, 3
+sales automation, 4
+accelerator, 4
+games, 4
+virtual reality, 4
+construction equipment, 3
+generators, 3
+gold, 2
+visual, 4
+agriculture materials, 4
+public relations, 4
+dental, 4
+agriculture equipment, 4
+agritech, 4
+firearms, 2
+supplements, 3
+wireless, 4
+hospitality, 4
+electricity, 3
+hydraulic, 3
+higher education, 4
+accounting, 4
+lifestyle, 4
+professional education, 4
+private jets, 3
+data automation, 4
+investment, 5
+tech learning, 5
+pets, 3
+language, 4
+speech recognition, 5
+mobile marketing, 4
+used goods, 3
+coworking spaces, 3
+sharing economy, 4
+drilling, 2
+commercial banks, 3
+non-profit, 2
+adult education, 4
+charity, 3
+social care, 4
+electric vehicles, 5
+telehealth, 5
+banks, 3
+hedge funds, 2
+self storage, 3
+medical imaging, 4
+catering, 3
+email marketing, 3
+customer experience, 4
+venture capital, 5
+government & public services, 3
+golf, 2
+resorts, 3
+news, 2
+kids, 3
+incubator, 4
+p2p, 4
+skill assessment, 4
+k12, 4
+exchange, 4
+video conference, 4
+law firm, 2
+home care, 4
+hospitals, 4
+diabetes, 4
+pipelines, 2
+medical records, 4
+bioengineering, 4
+car rental, 3
+fuel cells, 4
+consumer chemistry, 3
+hotels, 3
+driver assistance, 4

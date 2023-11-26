@@ -1,0 +1,68 @@
+<!-- app/templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo4j Web Server</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+
+    <h1 class="mb-4">Neo4j Web Server</h1>
+
+    <!-- Form to input parameters and call functions -->
+    <form action="{{ url_for('get_matching_startups_route') }}" method="get" class="mb-4">
+        <h2>Get Matching Startups</h2>
+        <div class="form-group">
+            <label for="reputation_threshold">Reputation Threshold:</label>
+            <input type="number" name="reputation_threshold" step="0.1" value="4.0" required class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Get Matching Startups</button>
+    </form>
+
+    <form action="{{ url_for('does_startup_match_rules_route') }}" method="get">
+        <h2>Check if Startup Matches Rules</h2>
+        <div class="form-group">
+            <label for="startup_name">Startup Name:</label>
+            <input type="text" name="startup_name" required class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="reputation_threshold">Reputation Threshold:</label>
+            <input type="number" name="reputation_threshold" step="0.1" value="4.0" required class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Check Startup Rules</button>
+    </form>
+
+    <!-- Display results here if available -->
+    {% if startups %}
+        <h3 class="mt-4">Startups that match the rules (Reputation Threshold: {{ threshold }})</h3>
+        {% if startups_count > 0 %}
+            <p>Count: {{ startups_count }}</p>
+            <ul class="list-group">
+                {% for startup in startups %}
+                    <li class="list-group-item">{{ startup['startup_name'] }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No matching startups found.</p>
+        {% endif %}
+    {% endif %}
+
+    {% if startup_name %}
+        <h3 class="mt-4">Does {{ startup_name }} match the rules? (Reputation Threshold: {{ threshold }})</h3>
+        {% if matches_rules is defined %}
+            <p class="lead">{{ 'Yes' if matches_rules else 'No' }}</p>
+        {% else %}
+            <p class="text-danger">Invalid startup name or no rules defined.</p>
+        {% endif %}
+    {% endif %}
+
+    <!-- Bootstrap JS and dependencies (for modals, tooltips, etc.) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

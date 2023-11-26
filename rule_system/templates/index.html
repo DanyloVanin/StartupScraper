@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Evaluator</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+
+    <h1 class="mb-4">Startup Evaluator</h1>
+
+    <form action="{{ url_for('evaluate_startup_route') }}" method="post">
+        <div class="form-group">
+            <label for="startup_name">Enter Startup Name:</label>
+            <input type="text" name="startup_name" required class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Evaluate Startup</button>
+    </form>
+
+      <!-- Button to go to '/all_startups' route -->
+    <a href="{{ url_for('all_startups_route') }}" class="btn btn-success mt-3">All Startups</a>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
